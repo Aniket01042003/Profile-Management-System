@@ -1,0 +1,160 @@
+.flex {
+  justify-content: space-around;
+}
+
+.navbar {
+  background: #5F5F5F;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+
+.item {
+  margin: 10px 20px;
+}
+
+.card {
+  padding: 2em;
+}
+
+.share {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.card {
+  width: 60vw;
+  padding: 1rem;
+}
+
+.but {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: fit-content;
+}
+.but1 {
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.border{
+  border-color: #a6a1a154;
+  border-width: 3px;
+  border-radius: 8px;
+}
+
+.shadow-2xl {
+  --tw-shadow: 0 15px 125px -7px rgb(12 116 218 / 25%);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-2xl-ser {
+  --tw-shadow: 0 3px 42px -11px rgb(255 4 12 / 123%);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-2xl-card {
+  --tw-shadow: 0 3px 42px -11px rgb(83 96 154);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.dis {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  position: relative;
+}
+.Fa{
+  color: #48c648;
+}
+.del{
+  color:#ff3a3a;
+}
+.fontcol {
+  color: rgb(151, 159, 198);
+}
+.sh{
+  color:#7f7fff;
+}
+.ey{
+  color: beige;
+}
+
+.au {
+  width: 60vw;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-start;
+}
+.seac{
+  align-items: center;
+}
+.ViewCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ic:hover{
+  color: rgb(121, 77, 146);
+}
+.ser {
+  margin: 7px 10px;
+  position: relative;
+  display: flex;
+  width: 35rem;
+}
+
+.h1h {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1250px) {
+  .card {
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+  }
+
+  .add {
+    left: -16rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .maink {
+    width: 15rem;
+  }
+
+  .maink input {
+    width: 10rem;
+  }
+
+  .ViewCard {
+    padding: 20px;
+    width: 20rem;
+  }
+
+  .textarea {
+    margin-left: 5rem;
+    width: 15rem;
+  }
+
+}

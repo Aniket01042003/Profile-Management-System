@@ -1,0 +1,6 @@
+To start apllication 
+Here Vite Next Generation Frontend Too is used 
+href: https://vite.dev/guide/
+
+step1: npm install
+step2: npm run dev 
