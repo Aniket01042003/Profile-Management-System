@@ -1,2 +1,2 @@
 # Profile-Management-System
-This is Profile Management Sytem project using react
+"Profile Management System" is a web-based application developed using React, ensuring seamless interactions for both users and administrators
